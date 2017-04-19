@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+  "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+  "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+<class name="Passwords" table="pass">
+        <id name="id" type="string" column="id">
+        </id>
+        <property name="userid" column="userid" type="string"/>
+        <property name="Scheme" column="Scheme" type="string"/>
+
+        <property name="TimeTaken" column="TimeTaken" type="float"/>
+        <property name="State" column="state" type="string"/>
+
+        <property name="TC1" column="TC1" type="float"/>
+        <property name="S1" column="S1" type="string"/>
+
+        <property name="TC2" column="TC2" type="float"/>
+        <property name="S2" column="S2" type="string"/>
+
+        <property name="TC3" column="TC3" type="float"/>
+        <property name="S3" column="S3" type="string"/>
+
+        <property name="TC4" column="TC4" type="float"/>
+        <property name="S4" column="S4" type="string"/>
+
+        <property name="TC5" column="TC5" type="float"/>
+        <property name="S5" column="S5" type="string"/>
+
+        <property name="TC6" column="TC6" type="float"/>
+        <property name="S6" column="S6" type="string"/>
+
+        <property name="TC7" column="TC7" type="float"/>
+        <property name="S7" column="S7" type="string"/>
+  
+
+</hibernate-mapping>
